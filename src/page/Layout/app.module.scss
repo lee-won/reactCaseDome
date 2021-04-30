@@ -1,0 +1,20 @@
+.container{
+  height:100vh;
+  display: flex;
+  .left{
+    flex: 0 0 200px;
+    width:250px;
+    height:100%;
+    background: #001529;
+  }
+  .right{
+    flex:1;
+    padding:10px;
+    height:100%;
+    .content{
+      background: #fff !important;
+      height:100%;
+      padding:16px;
+    }
+  }
+}

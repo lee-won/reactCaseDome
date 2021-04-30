@@ -1,0 +1,25 @@
+.scroll_wrap {
+  height: inherit;
+  width:400px;
+  text-align: center;
+  overflow-y: scroll;
+  margin:0 auto;
+  .wrap_item { 
+    display: inline-block;
+    height:150px;
+    width:400px;
+    background: #ccc;
+    margin-top:16px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loading{
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#f60;
+  }
+}
