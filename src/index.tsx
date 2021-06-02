@@ -4,9 +4,7 @@ import Layout from './page/Layout';
 import reportWebVitals from './reportWebVitals';
 import './global.scss'
 ReactDOM.render(
-  <React.StrictMode>
-    <Layout/>
-  </React.StrictMode>,
+    <Layout/>,
   document.getElementById('root')
 );
 

@@ -48,7 +48,7 @@ function ScrollLoad() {
   return (
     <div ref={wrapRef} className={styles.scroll_wrap}>
       {
-        list && list.length && list.map(item => (
+        list && list.length > 0 && list.map(item => (
           <div key={item} className={styles.wrap_item}>{item}</div>
         ))
       }

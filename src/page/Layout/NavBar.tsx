@@ -10,6 +10,9 @@ function NavBar() {
       <Menu.Item key="1">
         <Link to='/'>滚动加载</Link>
       </Menu.Item>
+      <Menu.Item key="2">
+        <Link to='/form'>form表单</Link>
+      </Menu.Item>
     </Menu>
   )
 }

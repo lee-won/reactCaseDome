@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import ScrollLoad from '../ScrollLoad'
+import FormCase from '../FormCase'
 import styles from './app.module.scss'
 import { BrowserRouter, Route } from 'react-router-dom'
 function Layout() {
@@ -12,7 +13,8 @@ function Layout() {
       </div>
       <div className={styles.right}>
         <div className={styles.content}>
-        <Route path="/" component={ScrollLoad}></Route>
+        <Route path="/" exact component={ScrollLoad}></Route>
+        <Route path="/form" component={FormCase}></Route>
       </div>
       </div>
     </div>
