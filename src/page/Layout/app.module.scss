@@ -6,6 +6,7 @@
     width:250px;
     height:100%;
     background: #001529;
+    overflow-y: auto;
   }
   .right{
     flex:1;
@@ -14,6 +15,7 @@
     .content{
       background: #fff !important;
       height:100%;
+      overflow-y: auto;
       padding:16px;
     }
   }

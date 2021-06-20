@@ -13,7 +13,8 @@ function loadData(data) {
 
 const proxy = loadData({
   'POST /api/getList': './data/scrollLoad',
-  'POST /api/register': './data/formCase'
+  'POST /api/register': './data/formCase',
+  'GET /api/getMetadataOption': './data/factorialTable'
 });
 
 module.exports = (noProxy ? {} : delay(proxy, 1000));

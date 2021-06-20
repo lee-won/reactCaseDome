@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './NavBar'
 import ScrollLoad from '../ScrollLoad'
 import FormCase from '../FormCase'
+import FactorialTable from '../FactorialTable'
 import styles from './app.module.scss'
 import { BrowserRouter, Route } from 'react-router-dom'
 function Layout() {
@@ -15,6 +16,7 @@ function Layout() {
         <div className={styles.content}>
         <Route path="/" exact component={ScrollLoad}></Route>
         <Route path="/form" component={FormCase}></Route>
+        <Route path="/factorialTable" component={FactorialTable}></Route>
       </div>
       </div>
     </div>
